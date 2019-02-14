@@ -2,6 +2,7 @@ package com.face.gmail.manage.web;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.face.gamil.bean.manage.BaseAttrInfo;
+import com.face.gamil.bean.manage.BaseAttrValue;
 import com.face.gamil.bean.manage.BaseCatalog;
 import com.face.gamil.service.ManagerService;
 import io.swagger.annotations.*;
@@ -74,8 +75,54 @@ public class ManagerController {
             @ApiImplicitParam(paramType = "body",required = true,dataTypeClass = BaseAttrInfo.class,name = "baseAttrInfo",value = "平台属性,依据catalog3_id"),
     })
     @PostMapping("/saveAttrInfo")
-    public String getCatalog(@RequestBody BaseAttrInfo baseAttrInfo){
+    public String saveAttrInfo(@RequestBody BaseAttrInfo baseAttrInfo){
         managerService.saveBaseAttrInfo(baseAttrInfo);
         return "SUCCESS";
     }
+
+
+    @ApiOperation("查询单个平台属性（内含所有的平台属性值）")
+    @ApiImplicitParams({
+            @ApiImplicitParam(paramType = "query",required = true,dataTypeClass = String.class,name = "attrInfoId",value = "平台属性id"),
+    })
+    @GetMapping("/")
+    public BaseAttrInfo getAttrInfo(String attrInfoId){
+//        managerService.saveBaseAttrInfo(baseAttrInfo);
+        return null;
+    }
+
+
+
+    @ApiOperation("根据平台属性ID 查找平台属性下所有的属性值")
+    @ApiImplicitParams({
+            @ApiImplicitParam(paramType = "query",required = true,dataTypeClass = String.class,name = "attrInfoId",value = "平台属性id"),
+    })
+    @GetMapping("/")
+    public String getAttrValues(String attrInfoId){
+//        managerService.saveBaseAttrInfo(baseAttrInfo);
+        return "SUCCESS";
+    }
+
+
+    @ApiOperation("根据平台属性ID 添加平台属性值")
+    @ApiImplicitParams({
+            @ApiImplicitParam(paramType = "body",required = true,dataTypeClass = BaseAttrValue.class,name = "baseAttrValue",value = "平台属性值,依赖平台属性ID"),
+    })
+    @PostMapping("/saveAttrValue")
+    public String saveAttrValue(BaseAttrValue baseAttrValue){
+//        managerService.saveBaseAttrInfo(baseAttrInfo);
+        return "SUCCESS";
+    }
+
+    @ApiOperation("根据属性值ID 删除平台属性值")
+    @ApiImplicitParams({
+            @ApiImplicitParam(paramType = "body",required = true,dataTypeClass = String.class,name = "attrValueId",value = "平台属性值id"),
+    })
+    @PostMapping("/deleteAttrValue")
+    public String deleteAttrValue(String attrValueId){
+//        managerService.saveBaseAttrInfo(baseAttrInfo);
+        return "SUCCESS";
+    }
+
+
 }
