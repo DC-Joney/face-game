@@ -1,0 +1,6 @@
+INSERT INTO base_attr_value
+<trim prefix="(" suffix=")" suffixOverrides=",">id,value_name,attr_id</trim> VALUES <foreach collection="list"
+                                                                                             item="item" index="index"
+                                                                                             separator=",">
+<trim prefix="(" suffix=")" suffixOverrides=",">#{id},#{valueName},#{attrId},</trim>
+</foreach>

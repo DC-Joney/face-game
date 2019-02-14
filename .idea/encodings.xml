@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/gamil-bean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gamil-common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gamil-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gamil-manage-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gamil-manager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gamil-manager-service/target" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gamil-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gamil-service-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gamil-usermanage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gamil-usermanage-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gamil-web-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmail-order-web" charset="UTF-8" />
+  </component>
+</project>

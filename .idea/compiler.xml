@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gamil-bean" />
+        <module name="gamil-common-util" />
+        <module name="gamil-interface" />
+        <module name="gamil-manage-web" />
+        <module name="gamil-manager-service" />
+        <module name="gamil-service-util" />
+        <module name="gamil-usermanage-service" />
+        <module name="gamil-web-util" />
+        <module name="gmail-order-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="gamil-bean" target="1.8" />
+      <module name="gamil-common-util" target="1.8" />
+      <module name="gamil-interface" target="1.8" />
+      <module name="gamil-manage-web" target="1.8" />
+      <module name="gamil-manager-service" target="1.8" />
+      <module name="gamil-parent" target="1.8" />
+      <module name="gamil-service-util" target="1.8" />
+      <module name="gamil-usermanage-service" target="1.8" />
+      <module name="gamil-web-util" target="1.8" />
+      <module name="gmail-order-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
