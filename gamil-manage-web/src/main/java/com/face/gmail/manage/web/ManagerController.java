@@ -85,7 +85,7 @@ public class ManagerController {
     @ApiImplicitParams({
             @ApiImplicitParam(paramType = "query",required = true,dataTypeClass = String.class,name = "attrInfoId",value = "平台属性id"),
     })
-    @GetMapping("/")
+    @GetMapping("/getAttrInfo")
     public BaseAttrInfo getAttrInfo(String attrInfoId){
 //        managerService.saveBaseAttrInfo(baseAttrInfo);
         return null;

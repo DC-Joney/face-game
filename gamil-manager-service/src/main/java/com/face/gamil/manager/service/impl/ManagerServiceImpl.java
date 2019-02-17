@@ -59,8 +59,17 @@ public class ManagerServiceImpl implements ManagerService {
             baseAttrInfo.setId(null);
             System.out.println("来了 ...");
             attrInfoMapper.insertSelective(baseAttrInfo);
+
+            System.out.println(baseAttrInfo);
+
             System.out.println(baseAttrInfo.getAttrInfo());
-            attrValueDao.insertCollectionSelective(baseAttrInfo.getAttrInfo());
+
+            if(baseAttrInfo.getAttrInfo() != null && baseAttrInfo.getAttrInfo().size() > 0){
+                attrValueDao.insertCollectionSelective(baseAttrInfo.getAttrInfo());
+            }
+
+
+
 //            Optional.ofNullable(baseAttrInfo.getAttrInfo())
 //                    .orElseGet(Collections::emptyList)
 //                    .forEach(attrValue ->{
@@ -77,6 +86,12 @@ public class ManagerServiceImpl implements ManagerService {
 
     @PostConstruct
     public void test(){
+
+        BaseAttrInfo baseAttrInfo = new BaseAttrInfo(null,"测试","17",null);
+
+        saveBaseAttrInfo(baseAttrInfo);
+
+        System.out.println(baseAttrInfo);
 
         List<BaseAttrValue> baseAttrValues = new ArrayList<>();
 

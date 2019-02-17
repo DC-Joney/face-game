@@ -39,6 +39,7 @@
         <jna.version>4.5.1</jna.version>
         <beanUtils.version>1.9.3</beanUtils.version>
         <swagger.version>2.9.0</swagger.version>
+        <fastdfs.version>1.26.2</fastdfs.version>
     </properties>
 
 
@@ -47,6 +48,12 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>com.github.tobato</groupId>
+                <artifactId>fastdfs-client</artifactId>
+                <version>${fastdfs.version}</version>
+            </dependency>
 
 
             <dependency>

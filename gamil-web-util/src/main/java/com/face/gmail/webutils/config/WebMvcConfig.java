@@ -1,4 +1,4 @@
-package com.face.gmail.config;
+package com.face.gmail.webutils.config;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;

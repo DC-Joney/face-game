@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: io.swagger:swagger-models:1.5.18">
     <CLASSES>
-      <root url="jar://F:/java plugins/Maven plugins2/io/swagger/swagger-models/1.5.18/swagger-models-1.5.18.jar!/" />
+      <root url="jar://F:/java-plugins/io/swagger/swagger-models/1.5.18/swagger-models-1.5.18.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://F:/java plugins/Maven plugins2/io/swagger/swagger-models/1.5.18/swagger-models-1.5.18-javadoc.jar!/" />
+      <root url="jar://F:/java-plugins/io/swagger/swagger-models/1.5.18/swagger-models-1.5.18-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://F:/java plugins/Maven plugins2/io/swagger/swagger-models/1.5.18/swagger-models-1.5.18-sources.jar!/" />
+      <root url="jar://F:/java-plugins/io/swagger/swagger-models/1.5.18/swagger-models-1.5.18-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

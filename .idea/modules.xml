@@ -8,10 +8,13 @@
       <module fileurl="file://$PROJECT_DIR$/gamil-interface/gamil-interface.iml" filepath="$PROJECT_DIR$/gamil-interface/gamil-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/gamil-manage-web/gamil-manage-web.iml" filepath="$PROJECT_DIR$/gamil-manage-web/gamil-manage-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/gamil-manager-service/gamil-manager-service.iml" filepath="$PROJECT_DIR$/gamil-manager-service/gamil-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gamil-manager-service/gamil-manager-service.iml" filepath="$PROJECT_DIR$/gamil-manager-service/gamil-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/gamil-parent/gamil-parent.iml" filepath="$PROJECT_DIR$/gamil-parent/gamil-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/gamil-service-util/gamil-service-util.iml" filepath="$PROJECT_DIR$/gamil-service-util/gamil-service-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/gamil-usermanage-service/gamil-usermanage-service.iml" filepath="$PROJECT_DIR$/gamil-usermanage-service/gamil-usermanage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gamil-usermanage-service/gamil-usermanage-service.iml" filepath="$PROJECT_DIR$/gamil-usermanage-service/gamil-usermanage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/gamil-web-util/gamil-web-util.iml" filepath="$PROJECT_DIR$/gamil-web-util/gamil-web-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmail-order-web/gmail-order-web.iml" filepath="$PROJECT_DIR$/gmail-order-web/gmail-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/gmail-order-web/gmail-order-web.iml" filepath="$PROJECT_DIR$/gmail-order-web/gmail-order-web.iml" />
     </modules>
   </component>

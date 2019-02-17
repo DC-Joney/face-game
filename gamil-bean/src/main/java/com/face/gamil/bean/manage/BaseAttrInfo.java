@@ -2,7 +2,9 @@ package com.face.gamil.bean.manage;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import springfox.documentation.annotations.ApiIgnore;
 
 import javax.persistence.*;
@@ -13,6 +15,8 @@ import java.util.List;
 @Data
 @ApiModel("平台属性")
 @ApiIgnore
+@NoArgsConstructor
+@AllArgsConstructor
 public class BaseAttrInfo implements Serializable {
     @Id
     @Column
